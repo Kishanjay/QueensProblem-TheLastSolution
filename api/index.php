@@ -30,8 +30,9 @@ $app->before(function (Request $request) {
 });
 
 $app->get('/', function (Request $request, Silex\Application $app) {
-    $app.json(['success'=>true], 200);
+    return $app->json(['success'=>true], 200);
 });
+
 $app->post('/queensproblemsolver', function (Request $request, Silex\Application $app) {
     $startTime = microtime(true);
 
