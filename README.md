@@ -1,4 +1,9 @@
 # QueensProblem: The last solution
+## Live demo:
+[https://queensproblem-78c2c.firebaseapp.com/](https://queensproblem-78c2c.firebaseapp.com/)
+
+-----
+
 The challenge is to place several queens on a board without any of them
 able to hit another.
 
@@ -44,6 +49,10 @@ to the heroku repository.
 git push origin heroku
 ```
 
+Front-end is hosted on firebase
+```
+firebase deploy
+```
 
 # Technical dept
 This application was written in a rush, therefore has no quality guarantee.
